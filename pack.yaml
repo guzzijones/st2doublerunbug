@@ -1,0 +1,22 @@
+# Pack reference. It can only contain letters, digits and underscores.
+ref: bug
+# User-friendly pack name. If this attribute contains spaces or any other special characters, then
+# the "ref" attribute must also be specified (see above).
+name: bug
+# User-friendly pack description.
+description: Processes 
+# Keywords which are used when searching for packs.
+keywords:
+    - siem
+# Pack version which must follow semver format (<major>.<minor>.<patch> e.g. 1.0.0)
+version: 1.0.1
+# A list of major Python versions pack is tested with and works with.
+python_versions:
+  - "3"
+# Name of the pack author.
+author: xxxx
+# Email of the pack author.
+email: xxxx@xxxx.com
+# Optional list of additional contributors to the pack.
+contributors:
+  - xxxxx xxx
