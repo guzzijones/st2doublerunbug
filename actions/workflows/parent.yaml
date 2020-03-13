@@ -1,0 +1,14 @@
+version: 1.0
+tasks:
+  do_nothing:
+    action: core.noop
+    next:
+      - when: <%succeeded()%>
+        do:
+          - sub_workflow 
+  sub_workflow:
+    action: bug.base_email
+    input:
+      notification: <%ctx().notification %>
+input:
+  - notification 

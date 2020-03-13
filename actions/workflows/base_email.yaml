@@ -1,0 +1,8 @@
+version: 1.0
+tasks:
+  # todo(aj) close initial ticket; follow up ticket will be create for each indicator type
+  check_dmm:
+    action: core.noop
+input:
+  - notification 
+

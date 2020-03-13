@@ -1,0 +1,11 @@
+---
+name: "base_email"
+pack: bug 
+runner_type: "orquesta"
+description: "template python action"
+enabled: true
+entry_point: "workflows/base_email.yaml"
+parameters:
+  notification:
+    type: object
+    required: true

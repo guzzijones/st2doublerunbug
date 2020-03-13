@@ -1,0 +1,11 @@
+---
+name: "parent"
+pack: bug 
+runner_type: "orquesta"
+description: "template python action"
+enabled: true
+entry_point: "workflows/parent.yaml"
+parameters:
+  notification:
+    type: object
+    required: true
